@@ -5,11 +5,15 @@ Given a list of numbers and a number k,
 return whether any two numbers from the list add up to k.
 
 E.g.: given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17
+
+Bonus: do it in one pass.
 """
 
 
 def sum_pick_two(the_list, k):
     """
+    Base solution.
+
     Does multiple passes to determine if sum of any 2 numbers are add to k.
     O(n**2)
     """
@@ -22,6 +26,8 @@ def sum_pick_two(the_list, k):
 
 def sum_pick_two_single(the_list, k):
     """
+    Bonus.
+
     Does a single pass to determine if 2 numbers in a list add to k.
     O(n)
     """
