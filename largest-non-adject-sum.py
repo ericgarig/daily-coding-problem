@@ -23,9 +23,9 @@ def non_adjecent_sum(the_list):
     return max(incl, excl)
 
 
-# non_adjecent_sum([3, 5, 7, 6])    # 11
-# non_adjecent_sum([1, 4, 3, 5, 2])    # 9
-# non_adjecent_sum([2, 4, 6, 2, 5])    # 13
-# non_adjecent_sum([5, 1, 1, 5])    # 10
-# non_adjecent_sum([-5, 1, 1, 5])    # 6
-# non_adjecent_sum([-5, 1, 1, -5])    # 1
+non_adjecent_sum([3, 5, 7, 6])    # 11
+non_adjecent_sum([1, 4, 3, 5, 2])    # 9
+non_adjecent_sum([2, 4, 6, 2, 5])    # 13
+non_adjecent_sum([5, 1, 1, 5])    # 10
+non_adjecent_sum([-5, 1, 1, 5])    # 6
+non_adjecent_sum([-5, 1, 1, -5])    # 1

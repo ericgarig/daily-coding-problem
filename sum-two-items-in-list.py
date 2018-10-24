@@ -38,10 +38,10 @@ def sum_pick_two_single(the_list, k):
     return False
 
 
-# sum_pick_two([10, 15, 3, 7], 17)
-# sum_pick_two([10, 15, 3, 7], 20)
-# sum_pick_two([10, 15, 3, 7], 25)
+sum_pick_two([10, 15, 3, 7], 17)
+sum_pick_two([10, 15, 3, 7], 20)
+sum_pick_two([10, 15, 3, 7], 25)
 
-# sum_pick_two_single([10, 15, 3, 7], 17)
-# sum_pick_two_single([10, 15, 3, 7], 20)
-# sum_pick_two_single([10, 15, 3, 7], 25)
+sum_pick_two_single([10, 15, 3, 7], 17)
+sum_pick_two_single([10, 15, 3, 7], 20)
+sum_pick_two_single([10, 15, 3, 7], 25)

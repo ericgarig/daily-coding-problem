@@ -38,7 +38,7 @@ def first_missing_num(the_list):
     return next_min
 
 
-# print(first_missing_num([3, 4, -1, 1]))
-# print(first_missing_num([1, 2, 5, 2, 3]))
-# print(first_missing_num([1, 2, 3]))
-# print(first_missing_num([4, 7, 3, 5, 5, 3, 7]))
+print(first_missing_num([3, 4, -1, 1]))
+print(first_missing_num([1, 2, 5, 2, 3]))
+print(first_missing_num([1, 2, 3]))
+print(first_missing_num([4, 7, 3, 5, 5, 3, 7]))

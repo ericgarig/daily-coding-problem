@@ -41,8 +41,8 @@ def list_product_bonus(the_list):
     return new_list
 
 
-# list_product_no_index([1, 2, 3, 4, 5])
-# list_product_no_index([3, 2, 1])
+list_product_no_index([1, 2, 3, 4, 5])
+list_product_no_index([3, 2, 1])
 
-# list_product_bonus([1, 2, 3, 4, 5])
-# list_product_bonus([3, 2, 1])
+list_product_bonus([1, 2, 3, 4, 5])
+list_product_bonus([3, 2, 1])

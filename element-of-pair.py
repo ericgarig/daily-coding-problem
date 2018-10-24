@@ -26,8 +26,8 @@ def cdr(pair):
     return pair(lambda a, b: b)
 
 
-# car(cons(3, 4))    # returns 3
-# cdr(cons(3, 4))    # returns 4
-# cdr(car(cons(cons(3, 4), cons(1, 2))))    # returns 4
-# cdr(cdr(cons(cons(3, 4), cons(1, 2))))    # returns 2
-# car(cdr(cons(cons(3, 4), cons(1, 2))))    # returns 1
+car(cons(3, 4))    # returns 3
+cdr(cons(3, 4))    # returns 4
+cdr(car(cons(cons(3, 4), cons(1, 2))))    # returns 4
+cdr(cdr(cons(cons(3, 4), cons(1, 2))))    # returns 2
+car(cdr(cons(cons(3, 4), cons(1, 2))))    # returns 1

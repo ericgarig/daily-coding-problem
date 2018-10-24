@@ -18,4 +18,4 @@ def delayed_call(f, n):
     return eval(f + '()')
 
 
-# delayed_call('say_hi', 3)
+delayed_call('say_hi', 3)
