@@ -1,5 +1,5 @@
 r"""
-Daily Coding Problem 17 - 2018-10-24.
+Daily Coding Problem - 2018-10-24.
 
 Suppose we represent our file system by a string in the following manner:
 The string "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext" represents:
@@ -44,4 +44,4 @@ Note:
 
 def longest_path(rep_path):
     """Return longest absolute path given the file system string."""
-    continue
+    pass
