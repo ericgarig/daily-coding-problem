@@ -20,14 +20,12 @@ def words_from_str(str='', word_list=[]):
     """Given a list of words and a string, return the broken out string."""
     sentence_list = []
     while str:
-        found = False
         for i in word_list:
             if str.startswith(i):
                 sentence_list.append(i)
                 str = str[len(i):]
-                found = True
                 break
-        if not found:
+        else:
             return None
     return sentence_list
 
