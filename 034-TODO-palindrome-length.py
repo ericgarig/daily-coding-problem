@@ -15,9 +15,10 @@ As another example, given the string "google", you should return "elgoogle".
 """
 
 
-def palindrome(arr):
+def palindrome(s):
     """Find a palindrome by inserting the fewest characters."""
     pass
 
 
-print(palindrome([2, 1, 5, 7, 2, 0, 5]))
+print(palindrome('race'))    # 'ecarace'
+print(palindrome('google'))    # 'elgoogle'

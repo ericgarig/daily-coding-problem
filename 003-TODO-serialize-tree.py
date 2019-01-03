@@ -28,13 +28,15 @@ class Node:
         self.left = left
         self.right = right
 
-    def serialize(self):
-        """Serialize a tree."""
-        pass
 
-    def deserialize(self):
-        """Given a serialized tree string, deserialize it back to a tree."""
-        pass
+def serialize(self):
+    """Serialize a tree."""
+    pass
+
+
+def deserialize(self):
+    """Given a serialized tree string, deserialize it back to a tree."""
+    pass
 
 
 node = Node('root', Node('left', Node('left.left')), Node('right'))

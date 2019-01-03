@@ -1,5 +1,5 @@
 """
-Daily Coding Problem.
+Coding Problem.
 
 Given a dictionary, print a 'high level' to 'low level' budget report.
 
