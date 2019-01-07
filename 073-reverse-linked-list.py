@@ -47,14 +47,15 @@ class LList():
 
     def reverse_list(self):
         """Given the head of a singly-linked list, reverse it inplace."""
-        current = self.head
         previous = None
-        while current.next:
+        current = self.head
+        while current is not None:
             original_next = current.next
             current.next = previous
             previous = current
             current = original_next
-        return current
+        self.head = previous
+        return True
 
 
 ll = LList()
@@ -66,4 +67,5 @@ ll.print_nodes()
 
 print('reversing')
 ll.reverse_list()
+print('done')
 ll.print_nodes()
