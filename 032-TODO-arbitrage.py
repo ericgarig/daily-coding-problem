@@ -16,4 +16,5 @@ def arbitrage(arr):
     pass
 
 
-print(arbitrage([]))
+arr = [[1, 0.75], [1.25, 1]]
+print(arbitrage(arr))
