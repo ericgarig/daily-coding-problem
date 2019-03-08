@@ -41,5 +41,5 @@ def solve_linear_space_time(arr=[]):
     return unique
 
 
-print(solve([2, 4, 6, 8, 10, 2, 6, 10]))  # [4, 8]
-print(solve_linear_space_time([2, 4, 6, 8, 10, 2, 6, 10]))  # [4, 8]
+assert (solve([2, 4, 6, 8, 10, 2, 6, 10])) == [4, 8]
+assert (solve_linear_space_time([2, 4, 6, 8, 10, 2, 6, 10])) == [4, 8]

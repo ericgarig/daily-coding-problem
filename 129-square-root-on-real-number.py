@@ -11,8 +11,8 @@ def solve(n=0):
     return n ** 0.5
 
 
-print(solve(9))  # 3
-print(solve(4))  # 2
-print(solve(2))  # 1.4142...
-print(solve(-1))  #
-print(solve(10000))  # 100
+assert (solve(9)) == 3
+assert (solve(4)) == 2
+assert (solve(2)) == 1.4142135623730951
+assert (solve(-1)) == (6.123233995736766e-17 + 1j)
+assert (solve(10000)) == 100

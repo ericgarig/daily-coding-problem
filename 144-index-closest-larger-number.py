@@ -24,7 +24,7 @@ def solve(arr=[], k=None):
     return min_index
 
 
-print(solve([4, 1, 3, 5, 6], 0))  # 3
-print(solve([4, 1, 3, 5, 6], 2))  # 3
-print(solve([4, 1, 3, 2, 6], 2))  # 0
-print(solve([4, 1, 3, 2, 6], 4))  # None
+assert (solve([4, 1, 3, 5, 6], 0)) == 3
+assert (solve([4, 1, 3, 5, 6], 2)) == 3
+assert (solve([4, 1, 3, 2, 6], 2)) == 0
+assert (solve([4, 1, 3, 2, 6], 4)) == None

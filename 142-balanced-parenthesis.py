@@ -43,12 +43,12 @@ def is_balanced(arr):
     return counter == 0
 
 
-print(solve("(()*"))  # True
-print(solve("(*)"))  # True
-print(solve(")*("))  # False
-print(solve("(((**(**"))  # True
-print(solve("(((**(*)"))  # True
-print(solve("(((**()"))  # False
-print(solve("(**"))  # True
-print(solve("*"))  # True
-print(solve(")**"))  # False
+assert (solve("(()*")) == True
+assert (solve("(*)")) == True
+assert (solve(")*(")) == False
+assert (solve("(((**(**")) == True
+assert (solve("(((**(*)")) == True
+assert (solve("(((**()")) == False
+assert (solve("(**")) == True
+assert (solve("*")) == True
+assert (solve(")**")) == False
