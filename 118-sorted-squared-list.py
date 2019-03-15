@@ -13,4 +13,4 @@ def solve(arr):
     return sorted([i ** 2 for i in arr])
 
 
-print(solve([-9, -2, 0, 2, 3]))  # [0, 4, 4, 9, 81]
+assert (solve([-9, -2, 0, 2, 3])) == [0, 4, 4, 9, 81]

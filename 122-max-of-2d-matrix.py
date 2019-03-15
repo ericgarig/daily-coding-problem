@@ -32,4 +32,4 @@ def solve(arr=[]):
 
 
 arr = [[0, 3, 1, 1], [2, 0, 0, 4], [1, 5, 3, 1]]
-print(solve(arr))  # 12
+assert (solve(arr)) == 12

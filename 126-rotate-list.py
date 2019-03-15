@@ -12,8 +12,11 @@ How many swap or move operations do you need?
 def solve(arr, k):
     """Given an array, rotate in by k elements."""
     if k > len(arr):
-        return solve(arr, len(arr) - k)
+        return solve(arr, k - len(arr))
     return arr[k:] + arr[:k]
 
 
-print(solve([1, 2, 3, 4, 5, 6], 2))  # [3, 4, 5, 6, 1, 2]
+assert (solve([1, 2, 3, 4, 5, 6], 2)) == [3, 4, 5, 6, 1, 2]
+assert (solve([1, 2, 3, 4, 5, 6], 1)) == [2, 3, 4, 5, 6, 1]
+assert (solve([1, 2, 3, 4, 5, 6], 6)) == [1, 2, 3, 4, 5, 6]
+assert (solve([1, 2, 3, 4, 5, 6], 7)) == [2, 3, 4, 5, 6, 1]

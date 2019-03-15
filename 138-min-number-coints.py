@@ -21,7 +21,7 @@ def solve(n=0):
     return coins
 
 
-print(solve(16))  # 3
-print(solve(80))  # 4
-print(solve(79))  # 7
-print(solve(41))  # 4
+assert (solve(16)) == 3
+assert (solve(80)) == 4
+assert (solve(79)) == 7
+assert (solve(41)) == 4

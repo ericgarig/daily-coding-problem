@@ -8,15 +8,18 @@ For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 """
 
 
-def solve(w='', s=''):
+def solve(w="", s=""):
     """Given string s, get start indices of anagram w."""
-    result = []
-    sorted_w = ''.join(sorted(list(w)))
-    for i in range(0, len(s) - len(w)):
-        if s[i] in w:
-            if ''.join(sorted(s[i:len(w)])) == sorted_w:
-                result.append(i)
+    result = [i for i in range(0, len(s) - len(w)) if s[i : i + len(w)] == w]
+    s = s[::-1]
+    result.extend(
+        [
+            len(s) - len(w) - i
+            for i in range(0, len(s) - len(w))
+            if s[i : i + len(w)] == w
+        ]
+    )
     return result
 
 
-print(solve('ab', 'abxaba'))    # [0, 3, 4]
+assert (solve("ab", "abxaba")) == [0, 3, 4]

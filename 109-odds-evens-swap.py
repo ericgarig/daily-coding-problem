@@ -12,7 +12,7 @@ Bonus: Can you do this in one line?
 
 def solve(k):
     """Swap the odds-evens bits of 8-bit integer."""
-    result = ''
+    result = ""
     for i in range(len(k)):
         if i % 2 == 1:
             result += k[i] + k[i - 1]
@@ -21,11 +21,11 @@ def solve(k):
 
 def solve_short(k):
     """One-liner of solve function."""
-    return ''.join([k[i] + k[i - 1] for i in range(len(k)) if i % 2 == 1])
+    return "".join([k[i] + k[i - 1] for i in range(len(k)) if i % 2 == 1])
 
 
-print(solve('10101010') == '01010101')
-print(solve('11100010') == '11010001')
+assert (solve("10101010")) == "01010101"
+assert (solve("11100010")) == "11010001"
 
-print(solve_short('10101010') == '01010101')
-print(solve_short('11100010') == '11010001')
+assert (solve_short("10101010")) == "01010101"
+assert (solve_short("11100010")) == "11010001"

@@ -46,5 +46,5 @@ def travel_distance(point_a, point_b):
     return max(abs(point_a[0] - point_b[0]), abs(point_a[1] - point_b[1]))
 
 
-print(solve([(0, 0), (1, 1), (1, 2)]))    # 2
-print(solve([(0, 0), (2, 0), (2, 2)]))    # 4
+assert (solve([(0, 0), (1, 1), (1, 2)])) == 2
+assert (solve([(0, 0), (2, 0), (2, 2)])) == 4

@@ -27,7 +27,7 @@ def solve(arr=[]):
             return False
 
 
-print(solve([2, 0, 1, 0]))    # True
-print(solve([1, 1, 0, 1]))    # False
-print(solve([1, 2, 3, 1, -2, 0]))    # True
-print(solve([1, -1, 0]))    # False
+assert (solve([2, 0, 1, 0])) == True
+assert (solve([1, 1, 0, 1])) == False
+assert (solve([1, 2, 3, 1, -2, 0])) == True
+assert (solve([1, -1, 0])) == False

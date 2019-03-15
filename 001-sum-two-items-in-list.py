@@ -10,7 +10,7 @@ Bonus: do it in one pass.
 """
 
 
-def sum_pick_two(the_list, k):
+def solve(the_list, k):
     """
     Base solution.
 
@@ -24,7 +24,7 @@ def sum_pick_two(the_list, k):
     return False
 
 
-def sum_pick_two_single(the_list, k):
+def solve_single_pass(the_list, k):
     """
     Bonus.
 
@@ -38,10 +38,10 @@ def sum_pick_two_single(the_list, k):
     return False
 
 
-sum_pick_two([10, 15, 3, 7], 17)
-sum_pick_two([10, 15, 3, 7], 20)
-sum_pick_two([10, 15, 3, 7], 25)
+assert (solve([10, 15, 3, 7], 17)) is True
+assert (solve([10, 15, 3, 7], 20)) is False
+assert (solve([10, 15, 3, 7], 25)) is True
 
-sum_pick_two_single([10, 15, 3, 7], 17)
-sum_pick_two_single([10, 15, 3, 7], 20)
-sum_pick_two_single([10, 15, 3, 7], 25)
+assert (solve_single_pass([10, 15, 3, 7], 17)) is True
+assert (solve_single_pass([10, 15, 3, 7], 20)) is False
+assert (solve_single_pass([10, 15, 3, 7], 25)) is True

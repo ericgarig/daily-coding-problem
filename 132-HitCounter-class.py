@@ -56,7 +56,6 @@ hc.record(4)
 hc.record(6)
 hc.record(8)
 
-print(hc.total())
-print(hc.range(3, 7))
-print(hc.range(7, 7))
-print(hc.range(7, 2))
+assert (hc.range(3, 7)) == 2
+assert (hc.range(7, 7)) == 0
+assert (hc.range(7, 2)) == 3

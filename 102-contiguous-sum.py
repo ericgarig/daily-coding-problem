@@ -26,6 +26,6 @@ def solve(arr=[], k=0):
     return result
 
 
-print(solve([1, 2, 3, 4, 5], 9))    # [2, 3, 4]
-print(solve([1, 2, 3, 4, 5], 8))    # None
-print(solve([1, 3, 3, 4, 5], 9))    # [4, 5]
+assert (solve([1, 2, 3, 4, 5], 9)) == [2, 3, 4]
+assert (solve([1, 2, 3, 4, 5], 8)) is None
+assert (solve([1, 3, 3, 4, 5], 9)) == [4, 5]

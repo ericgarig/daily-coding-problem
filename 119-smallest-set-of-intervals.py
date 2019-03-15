@@ -22,4 +22,4 @@ def solve(arr=None):
     return {low, high}
 
 
-print(solve([[0, 3], [2, 6], [3, 4], [6, 9]]))  # {3, 6}
+assert (solve([[0, 3], [2, 6], [3, 4], [6, 9]])) == {3, 6}

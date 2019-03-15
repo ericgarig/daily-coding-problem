@@ -9,13 +9,13 @@ operation in-place?
 """
 
 
-def solve(s=''):
+def solve(s=""):
     """Given a string s, reverse the order of the words."""
-    arr = s.split(' ')
+    arr = s.split(" ")
     for i in range(len(arr) // 2):
         tail_index = len(arr) - i - 1
         arr[i], arr[tail_index] = arr[tail_index], arr[i]
-    return arr
+    return " ".join(arr)
 
 
-print(solve('hello world here'))    # here world hello
+assert (solve("hello world here")) == "here world hello"
